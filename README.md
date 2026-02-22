@@ -3,3 +3,5 @@ algorithm enables the generation of unknown regions while strictly keeping known
 handwriting and geological datasets to demonstrate the approach’s generalization and enable intuitive comparisons for spatial prediction.
 As shown in Figure 1 , the proposed framework first trains a diffusion model on complete realizations. During inference, the known
 region is enforced through a binary mask, and the unknown region is generated via conditioned reverse diffusion.
+
+![Alt text](https://github.com/heebahsaleem/generative_based_diffusion_modeling/blob/main/Workflow_figure.png)
